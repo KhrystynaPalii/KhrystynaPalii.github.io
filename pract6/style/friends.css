@@ -1,3 +1,28 @@
+@media (min-width: 992px){
+    .tabl{
+        font-size: 140%;
+    }
+
+    .tab_1, .tab_2{
+        font-size: 130%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .tabl{
+        font-size: 130%;
+    }
+
+    .tab_1, .tab_2{
+        font-size: 120%;
+    }
+}
+
+@media (max-width: 768px){
+    .tabl{
+        font-size: 110%;
+    }
+}
 .tab_1{
             background-color: gray;
         }
