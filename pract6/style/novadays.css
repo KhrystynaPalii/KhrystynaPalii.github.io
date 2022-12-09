@@ -1,4 +1,19 @@
- ul li:nth-child(odd) {
+*{
+    margin: 0%;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 992px){
+    .row{
+        flex-wrap: nowrap;
+    }
+}
+ul li:nth-child(odd) {
             background-color: gray;
             color: black;
         }
