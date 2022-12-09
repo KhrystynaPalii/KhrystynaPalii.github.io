@@ -9,51 +9,51 @@
     flex-wrap: wrap;
     align-items: center;
 }
-            a:link, a:visited{
-                text-decoration: none;
-                background-color: blue;
-                border: 3px black;
-                text-align: center;
-                color: black;
-                width: 300px;
-
-            }
-            a:hover{
-                background-color: purple;
-                color: white;
-                border: 3px red;
-            }
-            a:active{
-            background-color: yellow;
-            color: blue;
-            border: 3px blue;
-            }
-            p{
-                background-color: darksalmon;
-                color: red;
-                border: 3px red;
-            }
-            h1{
-                text-align: center;
-                font-size: 22px;
-            }
-            .main{
-            font-style: italic;
-            }
-            h3{
-                text-align: center;
-            }
-            article{
-            background-color:darksalmon;  
-            font-size: 120%;
-            border: 1px solid; 
-           }
-            h2{
-                font-size: 120%;
-            }
-            .dz{
-                font-weight: bold;
-            }
-            .up{
-                text-transform: uppercase;
-            }
+   
+a:link, a:visited{
+    text-decoration: none;
+    background-color: blue;
+    border: 3px black;
+    text-align: center;
+    color: black;
+    width: 300px;
+}
+a:hover{
+    background-color: purple;
+    color: white;
+    border: 3px red;
+}
+a:active{
+    background-color: yellow;
+    color: blue;
+    border: 3px blue;
+}
+p{
+    background-color: darksalmon;
+    color: red;
+    border: 3px red;
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+.main{
+    font-style: italic;
+}
+h3{
+    text-align: center;
+}
+article{
+    background-color:darksalmon;  
+    font-size: 120%;
+    border: 1px solid; 
+}
+h2{
+    font-size: 120%;
+}
+.dz{
+    font-weight: bold;
+}
+.up{
+     text-transform: uppercase;
+}
