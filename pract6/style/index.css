@@ -1,6 +1,8 @@
- a{
-            display: block;
-        }
+ .row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
         .bio {
             color: rgb(226, 43, 208);
         }
