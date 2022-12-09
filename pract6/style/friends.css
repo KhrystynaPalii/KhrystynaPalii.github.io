@@ -1,14 +1,4 @@
-@media (min-width: 992px){
-    .tabl{
-        font-size: 140%;
-    }
-
-    .tab_1, .tab_2{
-        font-size: 130%;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 992px){
+ @media (min-width: 992px){
     .tabl{
         font-size: 130%;
     }
@@ -18,19 +8,39 @@
     }
 }
 
+@media (min-width: 769px) and (max-width: 992px){
+    .tabl{
+        font-size: 120%;
+    }
+
+    .tab_1, .tab_2{
+        font-size: 110%;
+    }
+}
+
 @media (max-width: 768px){
     .tabl{
         font-size: 110%;
     }
 }
+table{
+    width: 100%;
+}
 .tabl{
     text-align: center;
+    background-color: rgb(91, 201, 91);
+    color: rgb(9, 67, 17);
 }
 .tab_1{
-            background-color: gray;
+            background-color: rgb(33, 208, 42);
+            color: rgb(55, 49, 2);
+        }
+        .tab_2{
+            background-color: rgb(101, 255, 134);
+            color: rgb(5, 70, 31);
         }
         table, th, tr, td{
-            border: 1px black;
+            border: 1px solid rgb(12, 82, 17);
         }
         h1, caption{
             text-align: center;
@@ -46,8 +56,6 @@
             text-align: center;
         }
         td,th{
-            background-color: green;
-            color: black;
             font-weight: bold;}
             .gg{
                 text-align: right;
