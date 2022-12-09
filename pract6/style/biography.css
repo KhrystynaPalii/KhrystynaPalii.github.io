@@ -13,7 +13,7 @@
 a:link, a:visited{
     text-decoration: none;
     background-color: blue;
-    border: 3px black;
+    border: 3px  solid black;
     text-align: center;
     color: black;
     width: 300px;
@@ -21,17 +21,17 @@ a:link, a:visited{
 a:hover{
     background-color: purple;
     color: white;
-    border: 3px red;
+    border: 3px solid red;
 }
 a:active{
     background-color: yellow;
     color: blue;
-    border: 3px blue;
+    border: 3px solid blue;
 }
 p{
     background-color: darksalmon;
     color: red;
-    border: 3px red;
+    border: 3px solid red;
 }
 h1{
     text-align: center;
