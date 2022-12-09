@@ -44,7 +44,9 @@
                 text-align: center;
             }
             article{
+            background-color:darksalmon;  
             font-size: 120%;
+            border: 1px solid; 
            }
             h2{
                 font-size: 120%;
