@@ -1,1 +1,284 @@
+.row{ 
+    width:100%; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+} 
+h1,h2,h3,h4{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+h4{
+    font-size: 120%;
+    font-family:  'Roboto', sans-serif;
+    position:absolute; 
+    bottom: 0; 
+    left:0; 
+}
+.text{
+    background-color: rgb(129, 212, 212);
+    border: 1px solid black ;
+    color: rgb(20, 20, 118);
+    font-family: 'Marck Script', cursive; 
+    position: relative; 
+    padding:30px;
+}
 
+.spysok{
+    background-color: rgb(255, 211, 78);
+    border: 1px solid black;
+    color: rgb(90, 14, 14);
+    font-family: 'Marck Script', cursive;
+    position: relative; 
+    padding:30px; 
+    display: flex; 
+        
+}
+.tabl{
+    background-color: rgb(186, 139, 229);
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    font-family: 'Marck Script', cursive;
+    position: relative; 
+    padding:30px; 
+    display: flex;  
+}
+.image{
+    background-color: rgb(178, 240, 117);
+    border: 1px solid black;
+    color: rgb(52, 88, 15);
+    font-family: 'Marck Script', cursive;
+    position: relative; 
+    padding:30px; 
+    display: flex; 
+}
+.one{
+    background-color: rgb(125, 125, 248);
+    border: 1px solid black;
+    width: 120px;
+    color: rgb(15, 15, 106);
+    
+    
+}
+.two{
+    background-color: rgb(255, 121, 73);
+    border: 1px  solid black;
+    width: 120px;
+    color: rgb(121, 36, 36);
+   
+}
+.three{
+    background-color: rgb(255, 79, 232);
+    border: 1px solid black;
+    width: 120px;
+    color: white;
+   
+}
+.for{
+    background-color: rgb(133, 214, 51);
+    border: 1px solid black;
+    width: 120px;
+    color: rgb(49, 83, 15);
+}
+table, tr,th,td{
+    border: 1px solid ;
+    
+}
+table{
+    background-color: rgb(255, 52, 252);
+}
+tr{
+    background-color: rgb(255, 60, 138);
+}
+td{
+    background-color: rgb(255, 103, 166);
+}
+ol :nth-child(odd){
+    background-color: rgb(255, 179, 72);
+}
+.sylka{
+    font-family: 'Roboto', sans-serif; 
+    color: black;
+    background-color: rgb(245, 139, 190);
+}
+@media (min-width: 1200px) { 
+    .text,.spysok,.tabl,.image{ 
+            height: 250px; 
+        }     
+    .image{ 
+        width:100%; 
+    } 
+    img{ 
+        width:inherit; 
+    } 
+    .col-xl-1 { 
+    width: 8.33%; 
+    } 
+    .col-xl-2 { 
+    width: 16.66%; 
+    } 
+    .col-xl-3 { 
+    width: 25%; 
+    } 
+    .col-xl-4 { 
+    width: 33.33%; 
+    } 
+    .col-xl-5 { 
+    width: 41.66%; 
+    } 
+    .col-xl-6 { 
+    width: 50%; 
+    }
+   .col-xl-7 { 
+    width: 58.33%; 
+    } 
+    .col-xl-8 { 
+    width: 66.66%; 
+    } 
+    .col-xl-9 { 
+    width: 75%; 
+    } 
+    .col-xl-10 { 
+    width: 83.33%; 
+    } 
+    .col-xl-11 { 
+    width: 91.66%; 
+    } 
+    .col-xl-12 { 
+    width: 100%; 
+    } 
+     
+     
+    }
+
+@media (min-width: 992px) and (max-width: 1200px){ 
+    .text,.spysok,.tabl{ 
+        height: 250px; 
+    } 
+     
+    .col-lg-1 { 
+    width: 8.33%; 
+    } 
+    .col-lg-2 { 
+    width: 16.66%; 
+    } 
+    .col-lg-3 { 
+    width: 25%; 
+    } 
+    .col-lg-4 { 
+    width: 33.33%; 
+    } 
+    .col-lg-5 { 
+    width: 41.66%; 
+    } 
+    .col-lg-6 { 
+    width: 50%; 
+    } 
+     
+    .col-lg-7 { 
+    width: 58.33%; 
+    } 
+    .col-lg-8 { 
+    width: 66.66%; 
+    } 
+    .col-lg-9 { 
+    width: 75%; 
+    } 
+    .col-lg-10 { 
+    width: 83.33%; 
+    } 
+    .col-lg-11 { 
+    width: 91.66%; 
+    } 
+    .col-lg-12 { 
+    width: 100%; 
+    } 
+     
+    } 
+     
+     
+    @media (min-width: 768px) and (max-width: 992px) { 
+        .text,.spysok,.tabl,.image{ 
+        height: 250px; 
+    } 
+    .col-md-1 { 
+    width: 8.33%; 
+    } 
+    .col-md-2 { 
+    width: 16.66%; 
+    } 
+    .col-md-3 { 
+    width: 25%; 
+    } 
+    .col-md-4 { 
+    width: 33.33%; 
+    } 
+    .col-md-5 { 
+    width: 41.66%; 
+    } 
+    .col-md-6 { 
+    width: 50%; 
+    } 
+     
+    .col-md-7 { 
+    width: 58.33%; 
+    } 
+    .col-md-8 { 
+    width: 66.66%; 
+    } 
+    .col-md-9 { 
+    width: 75%; 
+    } 
+    .col-md-10 { 
+    width: 83.33%; 
+    } 
+    .col-md-11 { 
+    width: 91.66%; 
+    } 
+    .col-md-12 { 
+    width: 100%; 
+    } 
+    } 
+     
+     
+    @media (max-width: 768px) { 
+     
+    .col-sd-1 { 
+    width: 8.33%; 
+    } 
+    .col-sd-2 { 
+    width: 16.66%; 
+    } 
+    .col-sd-3 { 
+    width: 25%; 
+    } 
+    .col-sd-4 { 
+    width: 33.33%; 
+    } 
+    .col-sd-5 { 
+    width: 41.66%; 
+    } 
+    .col-sd-6 { 
+    width: 50%; 
+    } 
+    .col-sd-7 { 
+    width: 58.33%; 
+    } 
+    .col-sd-8 { 
+    width: 66.66%; 
+    } 
+    .col-sd-9 { 
+    width: 75%; 
+    } 
+    .col-sd-10 { 
+    width: 83.33%; 
+    } 
+    .col-sd-11 { 
+    width: 91.66%; 
+    } 
+    .col-sd-12 { 
+    width: 100%; 
+    } 
+     
+     
+    } 
